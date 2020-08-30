@@ -1,0 +1,18 @@
+GET https://id.twitch.tv/oauth2/authorize
+    ?client_id=<your client ID>
+    &redirect_uri=<your registered redirect URI>
+    &response_type=code
+    &scope=<space-separated list of scopes>
+
+    https://id.twitch.tv/oauth2/token
+    ?client_id=uo6dggojyb8d6soh92zknwmi5ej1q2
+    &client_secret=nyo51xcdrerl8z9m56w9w6wg
+    &code=394a8bc98028f39660e53025de824134fb46313
+    &grant_type=authorization_code
+    &redirect_uri=http://localhost
+
+    http://localhost:8888/auth/twitch?scope=chat:edit+chat:read+whispers:read
+    http://localhost:8888/auth/twitch?scope=moderation:read
+    http://localhost:8888/auth/twitch?scope=user:read:email
+    
+  

@@ -1,0 +1,25 @@
+{
+  "name": "twitchbinx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node source/index.js --presets es2015,stage-2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-runtime": "^6.26.0",
+    "config": "^3.3.1",
+    "fastify": "^3.3.0",
+    "ioredis": "^4.17.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
